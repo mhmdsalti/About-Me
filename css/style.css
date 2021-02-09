@@ -26,17 +26,42 @@ color: rgb(32, 34, 150);
  
  
  
-                         /*   body {
+footer h1 {
+  color: rgb(32, 34, 150);
+}
 
-   
-                        background: url('./img/soft.jpg');
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                                 }
-                                 
-                                 */
-                     
-                        
- 
- 
-                       
+.olid {
+  list-style-type: none;
+}
+.olid ol {
+  margin-left: 2em;
+}
+.olid li {
+  counter-increment: count-me;
+}
+.olid li::before {
+  content: counter(count-me) ". ";
+  display: block;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -1.3em;
+  top: .05em;
+  color: tomato;
+  font-weight: bold;
+  
+}
+
+.olid li {
+
+  color:whitesmoke;
+}
+/*ol { counter-reset: item; }
+        ol li { display: block; }
+        ol li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            color: tomato;
+        }*/
+
+        
