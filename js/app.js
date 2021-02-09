@@ -5,7 +5,9 @@ let userName = 'salti';
 console.log(userName);
 
 let correctAnswer=0;
-//let array = [ 'yes' , 'y' , 'no ', ' n'];
+
+
+
 
 let User = prompt('What\'s your name ');
 alert('its our pleasure to have you with us MR/MRS ' + User);
@@ -15,13 +17,13 @@ let question1 = prompt(' do you think I eat a lot ? ')
 switch (question1.toLowerCase()) {
 
   case 'yes':
-    alert('Wrong');
+    alert('Wrong !');
     console.log('Wrong !');
     
     break;
 
   case 'y':
-    alert('Wrong');
+    alert('Wrong !');
     console.log('Wrong !');
     
     break;
