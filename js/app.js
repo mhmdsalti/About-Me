@@ -207,19 +207,21 @@ for (let x = 0 ; x < 5 ; x++){
   attempt -= 1;
   userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
 }else if ( userInput>26 ){
-
   alert('too high from the answer');
+  attempt -= 1;
+  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+  
   
 }
 }
 if (!attempt) {
     
   alert('The correct answers is ' +oneNumber);
-  attempt -= 1;
-  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+  
     break;
   }
-  
+  attempt -= 1;
+  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
 }
 
 
