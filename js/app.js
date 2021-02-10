@@ -215,11 +215,11 @@ for (let x = 0 ; x < 5 ; x++){
 if (!attempt) {
     
   alert('The correct answers is ' +oneNumber);
-  
-    break;
-  }
   attempt -= 1;
   userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+    break;
+  }
+  
 }
 
 
