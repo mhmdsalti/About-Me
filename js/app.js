@@ -190,8 +190,18 @@ for (let x = 0 ; x < 5 ; x++){
   attempt =false;
       break;
 
-}
-else if (userInput  <13){
+}else if (userInput > 0 && userInput < 13 ){
+
+  alert('you are close to the answer');
+  attempt -= 1;
+  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+  
+}else if (userInput > 13 && userInput <= 26){
+
+  alert('you are close to the answer');
+  attempt -= 1;
+  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+}else if (userInput  <0){
 
   alert('too low from the answer');
   attempt -= 1;
@@ -210,8 +220,7 @@ if (!attempt) {
   
     break;
   }
-  attempt -= 1;
-  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+  
 }
 
 
