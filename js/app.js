@@ -7,6 +7,8 @@ console.log(userName);
 let correctAnswer=0;
 
 
+function userAq() {
+  
 
 
 let User = prompt('What\'s your name ');
@@ -44,6 +46,13 @@ switch (question1.toLowerCase()) {
     alert('you have to answer with (yes or y , no or n)');
     break;
 }
+ }
+ 
+ userAq();
+
+ function userWork() {
+   
+ 
 
 let question2 = prompt('do you think i work ?');
 
@@ -78,6 +87,12 @@ switch (question2.toLowerCase()) {
     alert('you have to answer with (yes or y , no or n)');
     break;
 }
+}
+
+userWork();
+
+function userLove() {
+  
 
 
 let question3 = prompt('do i love my life ?');
@@ -110,6 +125,12 @@ switch (question3.toLowerCase()) {
     alert('you have to answer with (yes or y , no or n)');
     break;
 }
+}
+userLove();
+
+function userNerd() {
+  
+
 
 let question4 = prompt('am i such a nerd  ?! ');
 
@@ -141,7 +162,12 @@ switch (question4.toLowerCase()) {
     alert('you have to answer with (yes or y , no or n)');
     break;
 }
+}
 
+userNerd();
+
+function userMuslim() {
+  
 
 let question5 = prompt('am  i muslim  ?');
 
@@ -173,6 +199,11 @@ switch (question5.toLowerCase()) {
     alert('you have to answer with (yes or y , no or n)');
     break;
 }
+}
+userMuslim();
+
+function userQus() {
+  
 
 alert('now another two questions That\'s not about me !');
 
@@ -222,12 +253,15 @@ if (!attempt) {
   }
   
 }
+}
+userQus();
 
 
 
 
 
-
+function userArr() {
+  
 
 
 let arrnumber = [5, 10, 15, 20, 25, 30];
@@ -267,3 +301,5 @@ while (attempts >= 0) {
 }
 alert('You got ' +correctAnswer+ ' correct answers out from 7 ');
 alert(' Visit us Again MR/MRs ' + User);
+}
+userArr();
