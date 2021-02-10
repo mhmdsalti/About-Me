@@ -209,8 +209,7 @@ for (let x = 0 ; x < 5 ; x++){
 }else if ( userInput>26 ){
 
   alert('too high from the answer');
-  attempt -= 1;
-  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
+  
 }
 }
 if (!attempt) {
@@ -219,7 +218,8 @@ if (!attempt) {
   
     break;
   }
-  
+  attempt -= 1;
+  userInput = prompt('Try Again You Have :  ' + attempt + ' attempts remaining');
 }
 
 
