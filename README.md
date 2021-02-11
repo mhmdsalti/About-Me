@@ -6,6 +6,6 @@
 
 ## Author : Mohammed AL-Salti
 
-#  the Navigator is mohammad alsaltu
+## the Navigator is mohammad alsaltu
 
-# the drinver is layan abu shaweesh
+## the drinver is layan abu shaweesh
